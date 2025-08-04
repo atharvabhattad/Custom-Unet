@@ -55,3 +55,6 @@ The training process was closely monitored using Weights & Biases (WandB), which
 - **The Power of Experiment Tracking**: Tools like WandB are indispensable. They provided a clear visual record of the model's failure and subsequent recovery, allowing for rapid debugging and informed decision-making regarding hyperparameter adjustments.
 
 - **Intelligent Conditioning**: Simply concatenating conditional information may not be the most effective strategy. Injecting a modulated feature map (as was done with the color embedding) into a deep bottleneck layer is a powerful technique for guiding a generative model's output.
+
+## References
+https://github.com/milesial/Pytorch-UNet
